@@ -1,1 +1,2 @@
 # lunar-formation-simulation
+A simulation of the formation of the Earths moon, used to determine the likely velocity, mass, and angle of impact of the large object (Theia) that likely impacted Earth roughly 30million years after the creation of our solar system. Several n-object simulations will be carried out and their results compared to determine which circumstances result in a satellite most similar to our own moon.
