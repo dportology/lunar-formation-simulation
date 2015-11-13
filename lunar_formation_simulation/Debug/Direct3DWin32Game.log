@@ -1,0 +1,24 @@
+﻿Build started 11/13/2015 4:23:28 PM.
+     1>Project "C:\Users\root\Desktop\direct_x_templates\directx-vs-templates\Win32Game_2015\Direct3DWin32Game.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Programs\visual_studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"pch.h" /Fp"Debug\Direct3DWin32Game.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt pch.cpp
+         pch.cpp
+         D:\Programs\visual_studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"pch.h" /Fp"Debug\Direct3DWin32Game.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp Main.cpp
+         Main.cpp
+         Game.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\resource.res" resource.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /nologo /fo"Debug\Direct3DWin32Game.exe.embed.manifest.res" Debug\Direct3DWin32Game_manifest.rc 
+       Link:
+         D:\Programs\visual_studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\root\Desktop\direct_x_templates\directx-vs-templates\Win32Game_2015\Debug\Direct3DWin32Game.exe" /INCREMENTAL /NOLOGO d3d11.lib dxguid.lib uuid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:settings.manifest /Debug /PDB:"C:\Users\root\Desktop\direct_x_templates\directx-vs-templates\Win32Game_2015\Debug\Direct3DWin32Game.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\root\Desktop\direct_x_templates\directx-vs-templates\Win32Game_2015\Debug\Direct3DWin32Game.lib" /MACHINE:X86 Debug\resource.res
+         Debug\Game.obj
+         Debug\Main.obj
+         Debug\pch.obj
+         Direct3DWin32Game.vcxproj -> C:\Users\root\Desktop\direct_x_templates\directx-vs-templates\Win32Game_2015\Debug\Direct3DWin32Game.exe
+     1>Done Building Project "C:\Users\root\Desktop\direct_x_templates\directx-vs-templates\Win32Game_2015\Direct3DWin32Game.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.51
